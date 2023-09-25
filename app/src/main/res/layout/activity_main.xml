@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFDEAD">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#9932CC"
+        android:fontFamily="serif"
+        android:text="*=ExNo.1=*"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+
+
+
+        android:textSize="30sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="#FF00FF"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:backgroundTint="#9932CC"
+        android:text="Change font size"
+        android:textColor="#FFFFFF"
+        android:fontFamily="serif"
+        android:textSize="40sp" />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#9932CC"
+        android:fontFamily="serif"
+        android:text="Change color"
+        android:textSize="40sp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9932CC"
+        android:textSize="40dp"
+        android:layout_marginTop="150dp"
+        />
+
+
+
+</LinearLayout>
