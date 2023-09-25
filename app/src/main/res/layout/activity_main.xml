@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#FFDEAD">
+    android:background="#FFD700">
 
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#9932CC"
+        android:background="#008080"
         android:fontFamily="serif"
-        android:text="*=ExNo.1=*"
+        android:text="*=MiilanesGalon=*"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
 
@@ -47,7 +47,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:backgroundTint="#9932CC"
+        android:backgroundTint="#008080"
         android:text="Change font size"
         android:textColor="#FFFFFF"
         android:fontFamily="serif"
@@ -64,7 +64,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:backgroundTint="#9932CC"
+        android:backgroundTint="#008080"
         android:fontFamily="serif"
         android:text="Change color"
         android:textSize="40sp" />
@@ -74,7 +74,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9932CC"
+        android:background="#008080"
         android:textSize="40dp"
         android:layout_marginTop="150dp"
         />
